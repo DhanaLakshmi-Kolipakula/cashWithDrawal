@@ -1,0 +1,61 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.bg-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-container {
+  background-color: #150b3e;
+  display: flex;
+  width: 60%;
+  height: 60%;
+  border-radius: 10px;
+  padding: 10px;
+}
+.head-box {
+  display: flex;
+  flex-direction: row;
+}
+.s-profile {
+  display: flex;
+  background-color: #c7d2fe;
+  border-radius: 50px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #7c3aed;
+  font-size: 20px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.para {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #585076;
+}
+.money {
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: bold;
+}
+.balance-container {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.money-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60px;
+  height: 20px;
+}
